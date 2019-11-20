@@ -22,8 +22,6 @@ function handleError(error) {
   const NOT_FOUND_STATUS = 404;
   const {status} = (error || {}).response || {};
 
-  console.log('STATUS', status);
-
   if (status === NOT_FOUND_STATUS) return Promise.resolve(null);
   return Promise.reject(error);
 }

@@ -178,6 +178,11 @@ Prints:
 */
 ```
 
+## Related projects
+
+* [countries-and-timezones](https://www.npmjs.com/package/countries-and-timezones)
+* [countries-db](https://www.npmjs.com/package/countries-db)
+
 
 ## License
 
